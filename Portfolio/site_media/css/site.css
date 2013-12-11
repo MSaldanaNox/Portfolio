@@ -1,0 +1,96 @@
+html
+{
+    background-color: black;
+    font-size: 10px;
+    font-family:"Courier New", serif;
+}
+
+a{
+    color: #21ECFF;
+    text-decoration:none;
+}
+
+header{
+    box-shadow: 0px 0px 40px -5px rgba(29,223,241,.4) inset;
+    background-color: rgba(12,24,40,1);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 100px
+}
+
+#logo
+{
+    position: relative;
+    top:20px;
+    left: 30px;   
+}
+
+#navWork, #navAbout
+{
+    position: relative;
+    top: 20px;
+    left: 440px;
+}
+
+/*Light blue color - 1ddff1*/
+/*Dark blue color - 0C1828*/
+#container{
+    width: 920px;
+    background-color: rgba(12,24,40,.6);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5em;
+    color: #21ECFF;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 40px -10px rgba(29,223,241,.6) inset;
+}
+
+#breadcrumbs{
+    font-size: .75em;
+    width: 400px;
+    position: relative;
+    left: 30px;  
+}
+
+#test{
+    position: relative;
+    width: 225px;
+    height: 225px;
+    background-image: url(../../images/radialFinal.gif);
+    background-size: 225px 225px;
+    background-repeat:no-repeat;
+    left: 650px;
+    bottom: 100px;
+}
+
+#menu{
+    width: 400px;
+    position: relative;
+    left: 220px;  
+    top: 85px;
+}
+
+#mainproject{
+    position: relative;
+    left: 180px;
+    bottom: 5px;
+}
+
+#mainillustrations{
+    position: relative;
+    left: 20px;;
+    top: 10px;
+    position: relative;
+}
+
+#mainsite{
+    margin-top: 30px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+}

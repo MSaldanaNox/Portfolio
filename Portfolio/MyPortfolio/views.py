@@ -1,8 +1,17 @@
 from django.shortcuts import render
 
 # Create your views here.
-def index(request):
-    return render(request,'index.html', {'username': 'Miguel'})
+def home(request):
+    return render(request, 'home.html', {'username': 'Miguel'})
 
-def menu(request):
-    return render(request,'menu.html')
+def about(request):
+    return render(request,'about.html')
+
+def projects(request):
+    return render(request,'projects.html')
+
+def illustrations(request):
+    return render(request,'illustrations.html')
+
+def templates(request):
+    return render(request,'templates.html')
