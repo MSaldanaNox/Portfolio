@@ -13,5 +13,6 @@ urlpatterns = patterns('',
     url(r'^Projects','MyPortfolio.views.projects' ),
     url(r'^Illustrations','MyPortfolio.views.illustrations' ),
     url(r'^Templates','MyPortfolio.views.templates' ),
+
     #url(r'^admin/', include(admin.site.urls)),
 )

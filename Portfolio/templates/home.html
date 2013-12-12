@@ -1,7 +1,7 @@
 <html>
     <head>
         {% load staticfiles %}
-        <link href="{% static "css/site.css" %}" rel="stylesheet" type="text/css">
+        <link href="{% static "../Portfolio/media/styles/site.css" %}" rel="stylesheet" type="text/css">
         
         <title>Welcome to my Portfolio | Home</title>
     </head>
@@ -16,7 +16,10 @@
                 </div>
             </header>
             <div id="content">
-                    <div id="radialgif"></div>
+                    <div id="radialgif">
+
+                        <img src="{% static "../Portfolio/media/images/radialFinal.gif" %}" alt="My Image"/>
+                    </div>
                 <div id="menu">
                     <a href="Projects" id="mainproject" class="radialmenu">Projects</a>
                     <a href="Illustrations" id="mainillustrations" class="radialmenu">Illustrations</a>

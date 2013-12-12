@@ -85,4 +85,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-STATIC_URL = '/site_media/'
+STATIC_URL = '/media/'
+
+STATIC_ROOT = '/media/'
+
+STATICFILES_DIRS = (
+   BASE_DIR + '/media/',
+)
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+)
