@@ -1,0 +1,112 @@
+html
+{
+    background-color: black;
+    font-size: 10px;
+    font-family:"Lucida Sans",  serif;
+    text-shadow: 0px 0px 20px rgba(29,223,241,.5);
+}
+
+body
+{
+    margin: none;
+}
+
+a{
+    color: #21ECFF;
+    text-decoration:none;
+    text-shadow: 0px 0px 40px rgba(29,223,241,.5);
+}
+
+a:hover {
+    text-shadow: 0px 0px 40px rgba(29,223,241,1);
+}
+
+header{
+    box-shadow: 15px 15px 40px -10px rgba(29,223,241,.5) inset;
+    background-color: rgba(12,24,40,.6);
+    background-image: url(../../images/header.png);
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+#breadcrumbs{
+    font-size: .75em;
+    width: 400px;
+    position: relative;
+    top: 45px;
+    left: 300px;  
+}
+
+#logo
+{
+    position: relative;
+    top:20px;
+    left: 30px;   
+}
+
+#navWork, #navAbout
+{
+    position: relative;
+    top: 20px;
+    left: 440px;
+}
+
+/*Light blue color - 1ddff1*/
+/*Dark blue color - 0C1828*/
+#container{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5em;
+    color: #21ECFF;
+}
+
+#content{
+    font-family:"Calibri", serif;
+    font-size: .75em;
+    background-color: rgba(12,24,40,.6);
+}
+
+#radialgif{
+    position: relative;
+    width: 225px;
+    height: 225px;
+    background-image: url(../../images/radialFinal.gif);
+    background-size: 225px 225px;
+    background-repeat:no-repeat;
+    box-shadow: 0px 0px 200px 0px rgba(29,223,241,.8) inset, 0px 0px 40px 0px rgba(29,223,241,.4);
+    border-radius: 50%;
+    top: 65px;
+    left: 100px;
+}
+
+#menu {
+    position: relative;
+    width: 250px;
+    bottom: 135px;
+    left: 340px;
+}
+
+.radialmenu {
+    box-shadow: 0px 15px 20px -20px rgba(29,223,241,.2);
+}
+
+#mainproject{
+    position: relative;
+}
+
+#mainillustrations{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#mainsite{
+    margin-top: 30px;
+    position: relative;
+    top: 40px;
+}
+
+.radialmenu:hover {
+    box-shadow: 0px 15px 30px -20px rgba(29,223,241,1);
+}
